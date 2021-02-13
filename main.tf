@@ -23,7 +23,7 @@ provider "hcloud" {
 
 # create server for habor registry
 resource "hcloud_server" "jitsi-server" {
-  name        = "habor"
+  name        = "jitsi-talk"
   server_type = "cx11"
   image       = "ubuntu-20.04"
   location    = "nbg1"

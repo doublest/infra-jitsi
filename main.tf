@@ -14,6 +14,7 @@ terraform {
     }
 }
 
+# define the access token
 variable "hcloud_token" {}
 
 provider "hcloud" {
